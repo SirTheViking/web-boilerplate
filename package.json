@@ -1,0 +1,50 @@
+{
+  "name": "webapp-boilerplate",
+  "version": "1.0.0",
+  "description": "Webapp boilerplate consisting of: React, Sass, Webpack, Postcss and other things",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "public-start": "webpack-dev-server --open --mode development --host 0.0.0.0",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirTheViking/webapp-boilerplate.git"
+  },
+  "author": "SirTheViking",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/SirTheViking/webapp-boilerplate/issues"
+  },
+  "homepage": "https://github.com/SirTheViking/webapp-boilerplate#readme",
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/preset-react": "^7.8.3",
+    "autoprefixer": "^9.7.4",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "cssnano": "^4.1.10",
+    "html-loader": "^0.5.5",
+    "html-replace-webpack-plugin": "^2.5.6",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "offline-plugin": "^5.0.7",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.26.2",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-pwa-manifest": "^4.2.0"
+  }
+}
