@@ -33,7 +33,7 @@ module.exports = (env, argv) => {
         },
     
         resolve: {
-            extensions: ['.jsx', '.js', '.scss', '.html', '*', '.scss'],
+            extensions: ['.jsx', '.js', '.scss', '.html', '*', '.scss', '.tsx', '.ts'],
             alias: {
                 'components': path.resolve(__dirname, 'src/components'),
                 'styles': path.resolve(__dirname, 'src/styles')
@@ -47,7 +47,7 @@ module.exports = (env, argv) => {
         module: {
             rules: [
                 {
-                    test: /\.(js|jsx)$/,
+                    test: /\.(ts|js|jsx|tsx)$/,
                     exclude: /node_modules/,
                     use: {
                         loader: 'babel-loader'
