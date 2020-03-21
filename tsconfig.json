@@ -4,7 +4,11 @@
         "target": "es6",
         "jsx": "react",
         "sourceMap": true,
-        "allowSyntheticDefaultImports": true
+        "allowSyntheticDefaultImports": true,
+        "noImplicitReturns": true,
+        "removeComments": true,
+        "resolveJsonModule": true,
+        "strictFunctionTypes": true
     },
     "exclude": [
         "node_modules"
